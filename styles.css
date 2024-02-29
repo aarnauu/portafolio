@@ -1,0 +1,43 @@
+header {
+    margin-top: 1.5%;
+}
+
+body {
+    background-image: url('img/rm218-bb-07.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubrirá todo el espacio del body */
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.header-inner {
+    display: flex;
+    backdrop-filter: blur(300px);
+    border-radius: 40px;
+}
+
+.header-item {
+    padding: 5px 10px;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    margin: 0 5px;
+    backdrop-filter: blur(300px); /* Desenfoque predeterminado */
+}
+
+.header-item:hover {
+    backdrop-filter: blur(500px); /* Desenfoque aumentado al pasar el cursor */
+    border: .1px solid rgba(255,255,255,0.1);
+}
+
+.profile-picture {
+    width: 100px; /* Ancho de la foto de perfil */
+    height: 100px; /* Altura de la foto de perfil */
+    background-image: url('img/WhatsApp\ Image\ 2023-07-11\ at\ 19.06.20.jpeg'); /* Ruta de la foto de perfil */
+    background-size: cover;
+    border-radius: 50%; /* Hace que la foto de perfil sea redonda */
+    margin: 20px; /* Ajusta el margen según sea necesario */
+}
