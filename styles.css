@@ -33,11 +33,55 @@ body {
     border: .1px solid rgba(255,255,255,0.1);
 }
 
+.profile-container {
+    margin-top: 50px; /* Ajusta la distancia vertical de la foto de perfil */
+    text-align: center;
+}
+
 .profile-picture {
     width: 100px; /* Ancho de la foto de perfil */
     height: 100px; /* Altura de la foto de perfil */
-    background-image: url(''); /* Ruta de la foto de perfil */
+    background-image: url('rm218-bb-07.jpg'); /* Ruta de la foto de perfil */
     background-size: cover;
     border-radius: 50%; /* Hace que la foto de perfil sea redonda */
-    margin: 20px; /* Ajusta el margen según sea necesario */
+    margin: 20px 0; /* Ajusta el margen superior e inferior */
+    margin-left: 35%; /* Ajusta el margen izquierdo */
+}
+
+.nombre-perfil{
+    font-size: 32px;
+}
+
+.dev-symbol {
+    margin-left: 35%;
+}
+
+.label-nombre {
+    margin-left: 3%;
+}
+
+.social-section {
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Centra horizontalmente los botones */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.boton-logo {
+    display: flex; /* Utiliza flexbox */
+    align-items: center; /* Centra verticalmente el contenido */
+    font-size: 20px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 10px 20px;
+    user-select: none;
+    margin-right: 10px; /* Ajusta el margen entre los botones */
+}
+
+.boton-logo i {
+    font-size: 35px;
+    margin-right: 10px; /* Ajusta el margen entre el icono y el texto */
 }
