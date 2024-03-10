@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-inner">
+                <div class="header-item" onclick="scrollToSection('profile-picture')">Sobre mí</div>
+                <div class="header-item" onclick="scrollToSection('social')">Social</div>
+                <div class="header-item" onclick="scrollToSection('proyectos')">Proyectos</div>
+                <div class="header-item" onclick="scrollToSection('habilidades')">Habilidades</div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="profile-picture" class="profile-container">
+        <div class="profile-picture"></div>
+    </div>
+    <br>
+        <div class="nombre-perfil">
+            <label class="dev-symbol"><i class='bx bx-code-alt'></i></label>
+            <label class="label-nombre">Arnau Boronat</label>
+        </div>
+        <br>
+        <div class="div-descripcion">
+            <label class="descripcion">No soy un robot,</label>
+            <label class="descripcion-azul"> soy un desarrollador Beginer</label>
+        </div>
+        <div class="div-descripcion">
+            <label class="descripcion">apasionado por el</label>
+            <label class="descripcion-rosa"> diseño web y la programación</label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="social" class="social">@ Social</div>
+        <br>
+        <div class="social-section">
+            <button class="boton-logo" onclick="goToCV()"><i class='bx bx-file'></i> CV</button> <!-- CV -->
+            <button class="boton-logo" onclick="goToGithub()"><i class='bx bxl-github'></i> Github</button> <!-- github -->
+            <button class="boton-logo-azul" onclick="goToLinkedin()"><i class='bx bxl-linkedin-square'></i> LinkedIn</button> <!-- Linkedin -->
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="proyectos" class="proyectos"><i class='bx bxs-star'></i> Proyectos</div>
+        <br>
+        <div class="proyecto-1">Calculadora eq. 1º</div>
+        <br>
+        <button class="Python"><i class='bx bxl-python'></i> Python</button>
+        <br>
+        <div class="div-descripcion">
+            <label class="descripcion">Creado 100% con Python. Calculadora de equaciones de 1r grado.</label>
+        </div>
+        <div class="pop-up_proyectos">
+            <div class="div-recuadro-proyecto">
+                <a href="https://github.com/aarnauu/Calculadora-eq.-1-" target="_blank" style="text-decoration: none; color: orange;">Ir al proyecto</a>
+                <label class="punto"> &#8226; </label>
+                <button class="mas-info" id="mas-info-btn">Más Información</button>
+
+                <div id="popup" class="popup">
+                    <!-- Contenido del popup aquí -->
+                    La calculadora de ecuaciones de primer grado es una herramienta desarrollada en Python que permite a los usuarios resolver ecuaciones lineales de la forma "ax + b = 0" de manera rápida y precisa. Este proyecto ofrece una interfaz intuitiva y amigable que facilita la introducción de los coeficientes de las ecuaciones y proporciona soluciones claras y detalladas.
+                </div>
+                <div class="div-img-proyecto">
+                    <div class="img-proyecto"></div>
+                </div>
+                
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
