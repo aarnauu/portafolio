@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-image: url('img/rm218-bb-07.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('rm218-bb-07.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* La imagen de fondo cubrirá todo el espacio del body */
     color: white;
 }
@@ -46,7 +46,7 @@ body {
 .profile-picture {
     width: 85px; /* Ancho de la foto de perfil */
     height: 85px; /* Altura de la foto de perfil */
-    background-image: url('img/WhatsApp\ Image\ 2023-07-11\ at\ 19.06.20.jpeg'); /* Ruta de la foto de perfil */
+    background-image: url('Tu_foto_de_perfil.jpg'); /* Ruta de la foto de perfil */
     background-size: cover;
     border-radius: 50%; /* Hace que la foto de perfil sea redonda */
     margin: 20px 0; /* Ajusta el margen superior e inferior */
@@ -242,6 +242,6 @@ body {
 .img-proyecto {
     width: 250px;
     height: 250px;
-    background-image: url('img/3007faf9d519d5896097b4a53930da98.jpg');
+    background-image: url('3007faf9d519d5896097b4a53930da98.jpg');
     background-size: cover;
 }
